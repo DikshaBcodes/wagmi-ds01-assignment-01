@@ -6,11 +6,11 @@ package main.java.com.wagmi.finance.processing;
  - Enforce overflow/underflow rules as per tests.
  - Validate null enqueues (should throw).
  - Run `PendingQueueTest` after changes.
-*/
-
+ */
 import main.java.com.wagmi.finance.model.Transaction;
 
 public class PendingQueue {
+
     private final Transaction[] data;
     private int head = 0;
     private int tail = 0;
@@ -21,13 +21,34 @@ public class PendingQueue {
     }
 
     public void enqueue(Transaction tx) {
-        // stub
+        if (tx == null) {
+            throw new IllegalArgumentException("Transaction cannot be null.");
+        }
+
         throw new UnsupportedOperationException("Not implemented");
     }
 
+    if (isFull()) {
+            throw new UnsupportedOperationException("Queue is full. Cannot enqueue new transaction.");
+        }
+
+        
+        data[tail] = tx;
+        tail = (tail + 1) % data.length;
+        size++;
+    }
+
     public Transaction dequeue() {
-        // stub
-        throw new UnsupportedOperationException("Not implemented");
+        if (isEmpty()) {
+            throw new UnsupportedOperationException("Queue is empty. Cannot dequeue transaction.");
+        }
+
+        Transaction temp = data[head];
+        data[head] = null;
+        head = (head + 1) % data.length;
+        size--;
+
+        return temp;
     }
 
     public boolean isEmpty() {
@@ -41,4 +62,3 @@ public class PendingQueue {
     public int size() {
         return size;
     }
-}
