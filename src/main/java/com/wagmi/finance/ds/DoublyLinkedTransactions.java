@@ -26,23 +26,99 @@ public class DoublyLinkedTransactions {
     private int size;
 
     public void add(Transaction tx) {
-        // stub: implement insertion at tail
-        throw new UnsupportedOperationException("Not implemented");
+        if(tx==null){
+            return;
+        }
+
+        Node temp=new Node(tx);
+        if(head==null){
+            head=temp;
+            tail=temp;
+        }
+        else{
+            tail.next=temp;
+            temp.prev=tail;
+            tail=temp;
+            
+        }
+        size++;
+
+       
     }
 
     public boolean deleteById(String id) {
-        // stub: implement search and delete
-        throw new UnsupportedOperationException("Not implemented");
+        if (id == null || head == null) {
+            return false;
+        }
+
+        Node current = head;
+        while (current != null) {
+        
+            if (current.value != null && id.equals(current.value.getId())) {
+                
+                if (current.prev != null) {
+                    current.prev.next = current.next;
+                } else {
+                    head = current.next;
+                }
+
+                if (current.next != null) {
+                    current.next.prev = current.prev;
+                } else {
+                    tail = current.prev;
+                }
+                
+                current.prev = null;
+                current.next = null;
+
+                size--;
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    
     }
 
     public Transaction findById(String id) {
-        // stub: linear search
-        throw new UnsupportedOperationException("Not implemented");
+        if(id==null || head==null){
+            return null;
+        }
+        Node temp=head;
+        while(temp!=null){
+            if(temp.value !=null){
+                String curid=temp.value.getId();
+                if(curid!=null && id.equals(curid)){
+                    return temp.value;
+                }
+            }
+            temp=temp.next;
+        }
+        return null;
+
+        
     }
 
     public void reverse() {
-        // stub: reverse pointers
-        throw new UnsupportedOperationException("Not implemented");
+        if (head == null || head == tail) {
+            return; 
+        }
+
+        Node current = head;
+        Node temp = null;
+
+        while (current != null) {
+            temp = current.prev; 
+            current.prev = current.next; 
+            current.next = temp;         
+
+            current = current.prev; 
+        }
+        
+        temp = head;
+        head = tail;
+        tail = temp;
+        
     }
 
     public int size() {
@@ -50,7 +126,18 @@ public class DoublyLinkedTransactions {
     }
 
     public Transaction[] toArray() {
-        // stub: iterate from head
-        throw new UnsupportedOperationException("Not implemented");
+        Transaction[] arr=new Transaction[size];
+        if(size==0){
+            return arr;
+        }
+        Node temp=head;
+        int i=0;
+        while(temp!=null){
+            arr[i]=temp.value;
+            temp=temp.next;
+            i++;
+        }
+        return arr;
+        
     }
 }
