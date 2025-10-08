@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.088" tests="16" errors="15" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.05" tests="16" errors="15" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365\surefirebooter-20251007011853206_3.jar C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365 2025-10-07T01-18-52_554-jvmRun1 surefire-20251007011853206_1tmp surefire_0-20251007011853206_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115\surefirebooter-20251008180450975_3.jar C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115 2025-10-08T18-04-50_121-jvmRun1 surefire-20251008180450975_1tmp surefire_0-20251008180450975_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rekha\OneDrive\Desktop\assignment1\wagmi-ds01-assignment-01\target\test-classes;C:\Users\rekha\OneDrive\Desktop\assignment1\wagmi-ds01-assignment-01\target\classes;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\rekha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rekha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\rekha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365\surefirebooter-20251007011853206_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115\surefirebooter-20251008180450975_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="matchesDatePattern_handles_null_input" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.006">
+  <testcase name="matchesDatePattern_handles_null_input" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_handles_null_input(StringUtilsTest.java:54)
@@ -68,7 +68,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="sanitizeDescription_handles_empty_string" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.002">
+  <testcase name="sanitizeDescription_handles_empty_string" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.sanitizeDescription(StringUtils.java:17)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.sanitizeDescription_handles_empty_string(StringUtilsTest.java:31)
@@ -113,7 +113,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="matchesDatePattern_handles_leap_year" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001">
+  <testcase name="matchesDatePattern_handles_leap_year" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_handles_leap_year(StringUtilsTest.java:80)
@@ -122,8 +122,8 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="sanitizeDescription_handles_null_input" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001"/>
-  <testcase name="sanitizeDescription_trims_and_collapses_spaces" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.006">
+  <testcase name="sanitizeDescription_handles_null_input" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.002"/>
+  <testcase name="sanitizeDescription_trims_and_collapses_spaces" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.008">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.sanitizeDescription(StringUtils.java:17)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.sanitizeDescription_trims_and_collapses_spaces(StringUtilsTest.java:13)
@@ -132,7 +132,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="matchesDatePattern_handles_whitespace" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.005">
+  <testcase name="matchesDatePattern_handles_whitespace" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_handles_whitespace(StringUtilsTest.java:112)
@@ -150,7 +150,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="matchesDatePattern_validates_month_range" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.003">
+  <testcase name="matchesDatePattern_validates_month_range" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_validates_month_range(StringUtilsTest.java:64)
@@ -159,7 +159,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="sanitizeDescription_handles_tabs_and_newlines" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.002">
+  <testcase name="sanitizeDescription_handles_tabs_and_newlines" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.sanitizeDescription(StringUtils.java:17)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.sanitizeDescription_handles_tabs_and_newlines(StringUtilsTest.java:48)
@@ -168,7 +168,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="matchesDatePattern_checks_basic_format" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.005">
+  <testcase name="matchesDatePattern_checks_basic_format" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_checks_basic_format(StringUtilsTest.java:19)
@@ -177,7 +177,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="matchesDatePattern_handles_year_boundaries" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.003">
+  <testcase name="matchesDatePattern_handles_year_boundaries" classname="test.java.com.wagmi.finance.strings.StringUtilsTest" time="0.001">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.strings.StringUtils.matchesDatePattern(StringUtils.java:22)
 	at test.java.com.wagmi.finance.strings.StringUtilsTest.matchesDatePattern_handles_year_boundaries(StringUtilsTest.java:94)

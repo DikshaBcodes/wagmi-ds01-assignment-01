@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.wagmi.finance.alg.SortersTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.193 s <<< FAILURE! -- in test.java.com.wagmi.finance.alg.SortersTest
-test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_empty_array -- Time elapsed: 0.042 s <<< ERROR!
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.123 s <<< FAILURE! -- in test.java.com.wagmi.finance.alg.SortersTest
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_empty_array -- Time elapsed: 0.014 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.insertionSortByCategory(Sorters.java:31)
 	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_empty_array(SortersTest.java:143)
@@ -10,7 +10,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_duplicate_categories -- Time elapsed: 0.010 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_duplicate_categories -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.insertionSortByCategory(Sorters.java:31)
 	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_duplicate_categories(SortersTest.java:161)
@@ -18,7 +18,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_uses_custom_comparator -- Time elapsed: 0.008 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_uses_custom_comparator -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.insertionSortByCategory(Sorters.java:31)
 	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_uses_custom_comparator(SortersTest.java:54)
@@ -26,7 +26,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_negative_amounts -- Time elapsed: 0.022 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_negative_amounts -- Time elapsed: 0.011 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.quickSortByAmount(Sorters.java:21)
 	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_negative_amounts(SortersTest.java:94)
@@ -34,7 +34,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_single_element -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_single_element -- Time elapsed: 0.010 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.quickSortByAmount(Sorters.java:21)
 	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_single_element(SortersTest.java:70)
@@ -42,7 +42,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_duplicate_dates -- Time elapsed: 0.005 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_duplicate_dates -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.mergeSortByDate(Sorters.java:26)
 	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_duplicate_dates(SortersTest.java:121)
@@ -50,7 +50,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_duplicate_amounts -- Time elapsed: 0.002 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_duplicate_amounts -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.quickSortByAmount(Sorters.java:21)
 	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_duplicate_amounts(SortersTest.java:81)
@@ -58,7 +58,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_year_boundaries -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_year_boundaries -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.mergeSortByDate(Sorters.java:26)
 	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_year_boundaries(SortersTest.java:134)
@@ -66,7 +66,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_single_element -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_single_element -- Time elapsed: 0.008 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.insertionSortByCategory(Sorters.java:31)
 	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_handles_single_element(SortersTest.java:150)
@@ -74,7 +74,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_single_element -- Time elapsed: 0.002 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_single_element -- Time elapsed: 0.004 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.mergeSortByDate(Sorters.java:26)
 	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_single_element(SortersTest.java:110)
@@ -82,7 +82,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_empty_array -- Time elapsed: 0.004 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_empty_array -- Time elapsed: 0.006 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.quickSortByAmount(Sorters.java:21)
 	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_handles_empty_array(SortersTest.java:63)
@@ -90,7 +90,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_with_reverse_comparator -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_with_reverse_comparator -- Time elapsed: 0.005 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.insertionSortByCategory(Sorters.java:31)
 	at test.java.com.wagmi.finance.alg.SortersTest.insertionSortByCategory_with_reverse_comparator(SortersTest.java:174)
@@ -98,7 +98,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_sorts_by_date_ascending -- Time elapsed: 0.003 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_sorts_by_date_ascending -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.mergeSortByDate(Sorters.java:26)
 	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_sorts_by_date_ascending(SortersTest.java:41)
@@ -106,7 +106,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_empty_array -- Time elapsed: 0.013 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_empty_array -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.mergeSortByDate(Sorters.java:26)
 	at test.java.com.wagmi.finance.alg.SortersTest.mergeSortByDate_handles_empty_array(SortersTest.java:103)
@@ -114,7 +114,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_sorts_ascending_and_handles_edges -- Time elapsed: 0.011 s <<< ERROR!
+test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_sorts_ascending_and_handles_edges -- Time elapsed: 0.002 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.alg.Sorters.quickSortByAmount(Sorters.java:21)
 	at test.java.com.wagmi.finance.alg.SortersTest.quickSortByAmount_sorts_ascending_and_handles_edges(SortersTest.java:27)

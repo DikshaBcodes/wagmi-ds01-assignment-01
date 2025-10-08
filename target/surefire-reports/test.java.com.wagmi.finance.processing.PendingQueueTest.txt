@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: test.java.com.wagmi.finance.processing.PendingQueueTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.056 s <<< FAILURE! -- in test.java.com.wagmi.finance.processing.PendingQueueTest
-test.java.com.wagmi.finance.processing.PendingQueueTest.queue_circular_wrap_around -- Time elapsed: 0.004 s <<< ERROR!
+Tests run: 10, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! -- in test.java.com.wagmi.finance.processing.PendingQueueTest
+test.java.com.wagmi.finance.processing.PendingQueueTest.queue_circular_wrap_around -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.processing.PendingQueue.enqueue(PendingQueue.java:25)
 	at test.java.com.wagmi.finance.processing.PendingQueueTest.queue_circular_wrap_around(PendingQueueTest.java:66)
@@ -18,7 +18,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.processing.PendingQueueTest.enqueue_dequeue_circular_behavior_and_overflow_underflow -- Time elapsed: 0.002 s <<< ERROR!
+test.java.com.wagmi.finance.processing.PendingQueueTest.enqueue_dequeue_circular_behavior_and_overflow_underflow -- Time elapsed: 0.003 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.processing.PendingQueue.enqueue(PendingQueue.java:25)
 	at test.java.com.wagmi.finance.processing.PendingQueueTest.enqueue_dequeue_circular_behavior_and_overflow_underflow(PendingQueueTest.java:23)
@@ -34,7 +34,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.processing.PendingQueueTest.queue_enqueue_dequeue_alternating -- Time elapsed: 0.004 s <<< ERROR!
+test.java.com.wagmi.finance.processing.PendingQueueTest.queue_enqueue_dequeue_alternating -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.processing.PendingQueue.enqueue(PendingQueue.java:25)
 	at test.java.com.wagmi.finance.processing.PendingQueueTest.queue_enqueue_dequeue_alternating(PendingQueueTest.java:138)
@@ -42,7 +42,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.processing.PendingQueueTest.queue_fifo_order -- Time elapsed: 0.004 s <<< ERROR!
+test.java.com.wagmi.finance.processing.PendingQueueTest.queue_fifo_order -- Time elapsed: 0.001 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.processing.PendingQueue.enqueue(PendingQueue.java:25)
 	at test.java.com.wagmi.finance.processing.PendingQueueTest.queue_fifo_order(PendingQueueTest.java:53)
@@ -50,7 +50,7 @@ java.lang.UnsupportedOperationException: Not implemented
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 
-test.java.com.wagmi.finance.processing.PendingQueueTest.queue_with_capacity_one -- Time elapsed: 0.010 s <<< ERROR!
+test.java.com.wagmi.finance.processing.PendingQueueTest.queue_with_capacity_one -- Time elapsed: 0.005 s <<< ERROR!
 java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.processing.PendingQueue.enqueue(PendingQueue.java:25)
 	at test.java.com.wagmi.finance.processing.PendingQueueTest.queue_with_capacity_one(PendingQueueTest.java:41)

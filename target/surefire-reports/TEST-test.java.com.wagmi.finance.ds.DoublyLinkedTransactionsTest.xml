@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.139" tests="15" errors="15" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.059" tests="15" errors="15" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365\surefirebooter-20251007011853206_3.jar C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365 2025-10-07T01-18-52_554-jvmRun1 surefire-20251007011853206_1tmp surefire_0-20251007011853206_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115\surefirebooter-20251008180450975_3.jar C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115 2025-10-08T18-04-50_121-jvmRun1 surefire-20251008180450975_1tmp surefire_0-20251008180450975_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rekha\OneDrive\Desktop\assignment1\wagmi-ds01-assignment-01\target\test-classes;C:\Users\rekha\OneDrive\Desktop\assignment1\wagmi-ds01-assignment-01\target\classes;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\rekha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rekha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\rekha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\rekha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rekha\AppData\Local\Temp\surefire10557309166001807365\surefirebooter-20251007011853206_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rekha\AppData\Local\Temp\surefire10230477579962168115\surefirebooter-20251008180450975_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="reverse_inverts_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
+  <testcase name="reverse_inverts_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.reverse_inverts_order(DoublyLinkedTransactionsTest.java:59)
@@ -68,7 +68,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="add_increases_size_and_toArray_contains_items_in_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
+  <testcase name="add_increases_size_and_toArray_contains_items_in_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.add_increases_size_and_toArray_contains_items_in_order(DoublyLinkedTransactionsTest.java:28)
@@ -77,7 +77,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="deleteById_removes_node_and_updates_size" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.001">
+  <testcase name="deleteById_removes_node_and_updates_size" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.deleteById_removes_node_and_updates_size(DoublyLinkedTransactionsTest.java:38)
@@ -86,7 +86,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="add_multiple_elements_maintains_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.009">
+  <testcase name="add_multiple_elements_maintains_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.add_multiple_elements_maintains_order(DoublyLinkedTransactionsTest.java:172)
@@ -95,7 +95,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="deleteById_with_null_id_returns_false" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.006">
+  <testcase name="deleteById_with_null_id_returns_false" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.deleteById_with_null_id_returns_false(DoublyLinkedTransactionsTest.java:157)
@@ -113,7 +113,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="reverse_single_element_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.001">
+  <testcase name="reverse_single_element_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.reverse_single_element_does_nothing(DoublyLinkedTransactionsTest.java:129)
@@ -122,7 +122,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="deleteById_from_head_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.001">
+  <testcase name="deleteById_from_head_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.deleteById_from_head_of_list(DoublyLinkedTransactionsTest.java:97)
@@ -131,7 +131,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="findById_with_null_id_returns_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
+  <testcase name="findById_with_null_id_returns_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.005">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.findById_with_null_id_returns_null(DoublyLinkedTransactionsTest.java:151)
@@ -140,7 +140,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="deleteById_from_tail_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
+  <testcase name="deleteById_from_tail_of_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.deleteById_from_tail_of_list(DoublyLinkedTransactionsTest.java:109)
@@ -149,7 +149,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="reverse_empty_list_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.02">
+  <testcase name="reverse_empty_list_does_nothing" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.reverse(DoublyLinkedTransactions.java:45)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.reverse_empty_list_does_nothing(DoublyLinkedTransactionsTest.java:121)
@@ -158,7 +158,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="deleteById_from_single_element_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.014">
+  <testcase name="deleteById_from_single_element_list" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.deleteById_from_single_element_list(DoublyLinkedTransactionsTest.java:89)
@@ -176,7 +176,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="findById_returns_correct_transaction_or_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.016">
+  <testcase name="findById_returns_correct_transaction_or_null" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.001">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.findById_returns_correct_transaction_or_null(DoublyLinkedTransactionsTest.java:51)
@@ -185,7 +185,7 @@
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ]]></error>
   </testcase>
-  <testcase name="reverse_twice_returns_to_original_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.002">
+  <testcase name="reverse_twice_returns_to_original_order" classname="test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest" time="0.003">
     <error message="Not implemented" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: Not implemented
 	at main.java.com.wagmi.finance.ds.DoublyLinkedTransactions.add(DoublyLinkedTransactions.java:30)
 	at test.java.com.wagmi.finance.ds.DoublyLinkedTransactionsTest.reverse_twice_returns_to_original_order(DoublyLinkedTransactionsTest.java:138)
